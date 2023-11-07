@@ -7,6 +7,6 @@ The detection software requires you to have a Pandas source catalog with columns
 from BDfinder.src import classifier
 detected_sources = classifier.EnsembleClassifier(df)
 ```
-Note that due to the large amount of machine learning models employed, the classifier may take up to an hour to run. The classifier will output several columns, among them `otypeclassified` and `sptypeclassified`. If `otypeclassified` is "substellar", the classifier identified the source as a T/Y dwarf. Furthermore, `sptypeclassified` indicates the classified spectral type of the object in question. 
+Note that due to the large amount of machine learning models employed, the classifier may take up to an hour to run, depending on the length of the input dataset. The classifier will output several columns, among them `otypeclassified` and `sptypeclassified`. If `otypeclassified` is "substellar", the classifier identified the source as a T/Y dwarf. Furthermore, `sptypeclassified` indicates the classified spectral type of the object in question. 
 
 **Since this is a machine learning model, its results may not be entirely accurate. As done in the source paper, it is strongly recommended to run several post-processing steps to filter down the candidates.**
