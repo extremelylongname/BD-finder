@@ -1,6 +1,6 @@
 # BD-Finder
 
-BD-finder is a ML-based T-Y brown dwarf detection package for brown dwarfs developed in Biswas, A. 2023, in preparation. The primary function is to use YJHK and WISE magnitudes to determine if an object is a T-Y brown dwarf and if so, to determine the object's properties. Details are described in Biswas, A. 2023, in preparation. 
+BD-finder is a Python ML-based T-Y brown dwarf detection package for brown dwarfs developed in Biswas, A. 2023, in preparation. The primary function is to use YJHK and WISE magnitudes to determine if an object is a T-Y brown dwarf and if so, to determine the object's properties. Details are described in Biswas, A. 2023, in preparation. 
 
 The detection software requires you to have a Pandas source catalog with columns `'Ymag', 'Jmag', 'Hmag', 'Kmag', 'W1mag', 'W2mag', 'W3mag'`, with each column signifying the AB magnitude of a source. To run the classifier, simply run:
 ```
