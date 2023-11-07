@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/__init__.py
+src/classifier.py
+src/BD_finder.egg-info/SOURCES.txt
+src/BD_finder.egg-info/dependency_links.txt
+src/BD_finder.egg-info/requires.txt
+src/BD_finder.egg-info/top_level.txt
+src/BDfinder.egg-info/PKG-INFO
+src/BDfinder.egg-info/SOURCES.txt
+src/BDfinder.egg-info/dependency_links.txt
+src/BDfinder.egg-info/requires.txt
+src/BDfinder.egg-info/top_level.txt

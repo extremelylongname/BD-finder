@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: BDfinder
+Version: 0.1.0
+Summary: A ML-based algorithm that uses WISE and YJHK magnitudes to find brown dwarfs.
+Home-page: https://github.com/extremelylongname/BD-finder
+Author: Ankit Biswas
+Author-email: ankit.biswas.31908@gmail.com
+Keywords: Data Science,Astronomy,Brown Dwarf,Astropy
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Text Processing
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=1.2.4
+Requires-Dist: numpy>=1.23.0
+Requires-Dist: astropy>=5.2.0
+Requires-Dist: torch>=1.13.0
+Requires-Dist: scikit-learn>=1.2.0
+
+#insert stuff here
+
+
+# CHANGELOG
+
+## Version 0.0.1 11/05/2023
+1. Added ensemble classifier functionality
+
